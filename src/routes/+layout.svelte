@@ -1,13 +1,13 @@
 <script>
+	export const prerender = true;
 	import '../app.css';
-	import '../theme.css';
 	import Header from './components/layout/Header.svelte'
 	import Footer from './components/layout/Footer.svelte'
 </script>
 
 <Header />
 
-<main>
+<main class="h-screen pt-28 bg-white">
 	<slot />
 </main>
 

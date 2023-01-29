@@ -1,0 +1,11 @@
+.regular-btn {
+    @apply transition-all ease-out duration-300 border-2 font-secondary-title bg-base-purple text-white rounded-full py-3 px-5 hover:text-base-purple hover:bg-light-purple;
+}
+
+.regular-outline-btn {
+    @apply transition-all ease-out duration-300 border-2 border-base-purple font-secondary-title bg-light-purple text-base-purple rounded-full py-3 px-5 hover:text-white hover:bg-base-purple;
+}
+
+a {
+    @apply text-green border-b border-solid border-transparent hover:text-base-purple hover:border-base-purple;
+}

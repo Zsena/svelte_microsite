@@ -1,0 +1,26 @@
+/* footer */
+
+.social-links {
+    @apply list-none flex my-5;
+}
+
+.social-links li {
+    @apply mr-3;
+}
+
+.social-links a {
+    @apply text-base-purple;
+}
+
+.social-links a:hover svg {
+    @apply text-green;
+}
+
+
+.footer-links a {
+    @apply text-black-lighter;
+}
+
+.footer-title {
+    @apply text-xl font-secondary-title mb-6 text-base-black;
+}

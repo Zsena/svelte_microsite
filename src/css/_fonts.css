@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'DMSansBold';
+    src: url('/fonts/DMSans-Bold.eot');
+    src: url('/fonts/DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DMSans-Bold.woff2') format('woff2'),
+        url('/fonts/DMSans-Bold.woff') format('woff'),
+        url('/fonts/DMSans-Bold.svg#DMSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DMSansMedium';
+    src: url('/fonts/DMSans-Medium.eot');
+    src: url('/fonts/DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DMSans-Medium.woff2') format('woff2'),
+        url('/fonts/DMSans-Medium.woff') format('woff'),
+        url('/fonts/DMSans-Medium.svg#DMSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DMSansRegular';
+    src: url('/fonts/DMSans-Regular.eot');
+    src: url('/fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/DMSans-Regular.woff2') format('woff2'),
+        url('/fonts/DMSans-Regular.woff') format('woff'),
+        url('/fonts/DMSans-Regular.svg#DMSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeVietnamSemibold';
+    src: url('/fonts/BeVietnamPro-SemiBold.eot');
+    src: url('/fonts/BeVietnamPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/BeVietnamPro-SemiBold.woff2') format('woff2'),
+        url('/fonts/BeVietnamPro-SemiBold.woff') format('woff'),
+        url('/fonts/BeVietnamPro-SemiBold.svg#BeVietnamPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeVietnamMedium';
+    src: url('/fonts/BeVietnamPro-Medium.eot');
+    src: url('/fonts/BeVietnamPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/BeVietnamPro-Medium.woff2') format('woff2'),
+        url('/fonts/BeVietnamPro-Medium.woff') format('woff'),
+        url('/fonts/BeVietnamPro-Medium.svg#BeVietnamPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeVietnamBold';
+    src: url('/fonts/BeVietnamPro-Bold.eot');
+    src: url('/fonts/BeVietnamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/BeVietnamPro-Bold.woff2') format('woff2'),
+        url('/fonts/BeVietnamPro-Bold.woff') format('woff'),
+        url('/fonts/BeVietnamPro-Bold.svg#BeVietnamPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeVietnamRegular';
+    src: url('/fonts/BeVietnamPro-Regular.eot');
+    src: url('/fonts/BeVietnamPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/BeVietnamPro-Regular.woff2') format('woff2'),
+        url('/fonts/BeVietnamPro-Regular.woff') format('woff'),
+        url('/fonts/BeVietnamPro-Regular.svg#BeVietnamPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('/fonts/Anton-Regular.eot');
+    src: url('/fonts/Anton-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Anton-Regular.woff2') format('woff2'),
+        url('/fonts/Anton-Regular.woff') format('woff'),
+        url('/fonts/Anton-Regular.svg#Anton-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
