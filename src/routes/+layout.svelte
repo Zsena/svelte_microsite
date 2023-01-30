@@ -7,7 +7,7 @@
 
 <Header />
 
-<main class="h-screen pt-28 bg-white">
+<main class="h-screen pt-[87px] bg-white">
 	<slot />
 </main>
 

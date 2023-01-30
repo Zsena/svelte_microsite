@@ -1,2 +1,49 @@
-
-<h1 class="text-3xl font-bold underline text-red-500">Főoldal</h1>
+<script>
+    	import heroImg from '$lib/assets/images/main-hero.png';
+        import Triangle from "$lib/assets/images/svg/triangle.svg";
+        import TriangleMobile from "$lib/assets/images/svg/triangle_mobile.svg";
+        import Dot from "$lib/assets/images/svg/dot.svg";
+        import Flower from "$lib/assets/images/svg/flower.svg";
+        import CircleInfo from "$lib/assets/images/svg/circle-info.svg";
+</script>
+<section class="main-hero py-10 md:py-10">
+    <div class="container mx-auto md:flex items-center">
+        <article class="w-full lg:w-1/2 relative">
+            <div class="absolute -top-8 left-0 z-0">
+                <Triangle class="hidden lg:block w-full" />
+                <TriangleMobile class="lg:hidden w-full" />
+            </div>
+            <div class="relative z-10 max-w-[551px]">
+                <h1 class="text-3xl lg:text-[40px] font-display mb-10 font-bold leading-tight" style="letter-spacing: 2px;">
+                    Having unwanted pests in your home is never a pleasant experience and can cause a lot of heartache.
+                </h1>
+                <a href="/contact" class="regular-btn text-xl">
+                    Explore Now
+                </a>
+            </div>
+        </article>
+        <section class="w-full lg:w-1/2 mt-10 lg:mt-0">
+            <div class="relative">
+                <img class="w-full object-cover max-w-[600px] relative z-[1]" src="{heroImg}" alt="Hero">
+                <div class="text-white absolute z-10 top-8 lg:top-4 left-12 md:left-20 lg:left-32 bg-white/40 p-2 rounded-xl backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-0">
+                    <h2 class="text-base lg:text-[26px] font-bold">BED BUG PEST <br> CONTROL</h2>
+                    <h3 class="text-sm lg:text-xl font-bold">London</h3>
+                </div>
+                <div class="md:text-white relative lft-0 md:absolute z-10 bottom-8 lg:bottom-4 md:left-20 lg:left-32 md:max-w-[55%] w-full bg-white/25 p-3 rounded-xl backdrop-blur-lg">
+                    <div class="absolute -top-[6rem] right-0 md:-top-[7rem] md:-left-[8.75rem]">
+                        <CircleInfo />
+                    </div>
+                    <p class="text-xs font-medium">How many people are going?</p>
+                    <div class="flex items-center md:flex-col md:items-start lg:flex-row lg:items-center lg:justify-between">
+                        <p class="text-xl flex items-center font-bold w-full">
+                            <span><Flower /></span>
+                            <span class="ml-3">2 person</span>
+                        </p>
+                        <p class="text-xs font-bold text-right w-full">EMERGENCY 24 HOUR</p>
+                    </div>
+                </div>
+                <Dot class="absolute bottom-0 z-0" />
+            </div>
+        </section>
+    </div>
+</section>

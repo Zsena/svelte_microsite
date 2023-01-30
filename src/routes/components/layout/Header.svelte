@@ -9,10 +9,17 @@
 		showMenu = !showMenu;
 	}
 	import Logo from "$lib/assets/images/svg/pest_logo.svg";
+	
+	import { error } from '@sveltejs/kit';
+ 
+	/** @type {import('./$types').PageLoad} */
+	export function load(event) {
+		throw error(404, 'Not Found');
+	}
 </script> 
 
-<header class="bg-gray-800 border-b border-slate-200 fixed top-0 right-0 left-0 w-full bg-white/90">
-	<nav class="container px-8 py-5 lg:py-0 mx-auto lg:flex lg:justify-between lg:items-center">
+<header class="bg-gray-800 border-b border-slate-200 fixed top-0 right-0 left-0 w-full bg-white/90 z-20">
+	<nav class="container px-8 py-5 lg:py-0 lg:px-4 mx-auto lg:flex lg:justify-between lg:items-center">
 		<div class="lg:flex items-center">
 			<div class="flex items-center justify-between lg:mr-10 xl:mr-20">
 				<a class="flex border-0" href="/">
