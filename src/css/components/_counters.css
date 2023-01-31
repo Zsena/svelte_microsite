@@ -1,0 +1,23 @@
+.base-counter {
+    @apply relative z-10 md:hidden xl:block;
+}
+
+.counter-wrapper {
+    @apply flex justify-center md:justify-start items-start flex-wrap;
+}
+
+.counter-wrapper .counter-card {
+    @apply max-w-[150px] ml-2 mr-2 md:mr-5 md:ml-0;
+}
+
+.counter-num {
+    @apply font-title text-[40px];
+}
+
+.counter-num span {
+    @apply font-display-regular;
+}
+
+.counter-card .counter-text {
+    @apply text-counter-gray;
+}

@@ -24,8 +24,9 @@ module.exports = {
 				blue: '#14A8D6'
 			},
 			fontFamily: {
-				display: ['BeVietnamMedium', 'ui-serif'],
-				'display-subpage': ['BeVietnamBold', 'ui-serif'],
+				'display-medium': ['BeVietnamMedium', 'ui-serif'],
+				'display-bold': ['BeVietnamBold', 'ui-serif'],
+				'display-regular': ['BeVietnamRegular', 'ui-serif'],
 				body: ['DMSansRegular', ...defaultTheme.fontFamily.sans],
 				title: ['Anton', 'ui-serif'],
 				'secondary-title': ['DMSansBold', 'ui-serif'],
