@@ -7,32 +7,31 @@
 	import CircleInfo from '$lib/assets/images/svg/circle-info.svg';
 	import { onDestroy } from 'svelte';
 
-    let counter1 = 0;
-    let counter2 = 0;
-    let counter3 = 0;
-    let duration1 = 80;
-    let duration2 = 10;
+	let counter1 = 0;
+	let counter2 = 0;
+	let counter3 = 0;
+	let duration1 = 80;
+	let duration2 = 10;
 
 	const interval = setInterval(() => {
-        if(counter1 < 98) {
-            counter1 = counter1 + 1;
-        }
+		if (counter1 < 98) {
+			counter1 = counter1 + 1;
+		}
 
-        if(counter3 < 100) {
-            counter3 = counter3 + 1;
-        }
+		if (counter3 < 100) {
+			counter3 = counter3 + 1;
+		}
 	}, duration1);
 
-    const intervalSecond = setInterval(() => {
-
-        if(counter2 < 1000) {
-            counter2 = counter2 + 1;
-        }
+	const intervalSecond = setInterval(() => {
+		if (counter2 < 1000) {
+			counter2 = counter2 + 1;
+		}
 	}, duration2);
 
 	onDestroy(() => {
 		clearInterval(interval);
-        clearInterval(intervalSecond);
+		clearInterval(intervalSecond);
 	});
 </script>
 
