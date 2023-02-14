@@ -6,6 +6,8 @@
 	import Flower from '$lib/assets/images/svg/flower.svg';
 	import CircleInfo from '$lib/assets/images/svg/circle-info.svg';
 	import { onDestroy } from 'svelte';
+	import CallToAction from '../components/action/CallToAction.svelte';
+	import Button from '../components/buttons/Button.svelte';
 
 	let counter1 = 0;
 	let counter2 = 0;
@@ -102,4 +104,5 @@
 			</div>
 		</section>
 	</div>
+    <CallToAction /> <Button />
 </section>
