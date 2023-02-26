@@ -1,5 +1,5 @@
 <script>
-	import NotFoundSvg from "$lib/assets/images/svg/not_found.svg";
+	import NotFoundSvg from "$lib/assets/svg/not_found.svg";
 </script>
 
 <section>
@@ -9,7 +9,7 @@
 	</h1>
 	
 	<p>
-		Not found.dddddeeeeeeeeees
+		Not found.
 	</p>
 </section>
 

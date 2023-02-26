@@ -10,6 +10,7 @@ module.exports = {
 		extend: {
 			colors: {
 				'base-purple': '#683EFC',
+				'light-purple': '#ECEEFF',
 				gray: '#A4A4A4',
 				'base-gray': '#636363',
 				'secondary-gray': '#696969',
@@ -21,7 +22,8 @@ module.exports = {
 				green: '#32CD9F',
 				orange: '#F59778',
 				'dirty-white': '#F5F5F5',
-				blue: '#14A8D6'
+				blue: '#14A8D6',
+				'dark-blue': '#220970'
 			},
 			fontFamily: {
 				'display-medium': ['BeVietnamMedium', 'ui-serif'],

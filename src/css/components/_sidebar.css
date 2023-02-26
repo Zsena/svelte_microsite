@@ -1,0 +1,7 @@
+.sidebar-link {
+    @apply text-green text-xl md:text-2xl leading-tight capitalize font-secondary-title;
+}
+
+.sidebar-link.active {
+    @apply text-base-purple;
+}

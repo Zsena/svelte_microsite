@@ -1,13 +1,13 @@
 <script>
-	import heroImg from '$lib/assets/images/main-hero.png';
-	import Triangle from '$lib/assets/images/svg/triangle.svg';
-	import TriangleMobile from '$lib/assets/images/svg/triangle_mobile.svg';
-	import Dot from '$lib/assets/images/svg/dot.svg';
-	import Flower from '$lib/assets/images/svg/flower.svg';
-	import CircleInfo from '$lib/assets/images/svg/circle-info.svg';
+	import Triangle from '$lib/assets/svg/triangle.svg';
+	import TriangleMobile from '$lib/assets/svg/triangle_mobile.svg';
+	import Dot from '$lib/assets/svg/dot.svg';
+	import Flower from '$lib/assets/svg/flower.svg';
+	import CircleInfo from '$lib/assets/svg/circle-info.svg';
 	import { onDestroy } from 'svelte';
-	import CallToAction from '../components/action/CallToAction.svelte';
-	import Button from '../components/buttons/Button.svelte';
+	import CallToAction from '../lib/assets/components/action/CallToAction.svelte';
+	import Blog from '../lib/assets/components/blog/Blog.svelte';
+	import Button from '../lib/assets/components/buttons/Button.svelte';
 
 	let counter1 = 0;
 	let counter2 = 0;
@@ -37,18 +37,16 @@
 	});
 </script>
 
+<!-- HERO -->
 <section class="main-hero py-10 md:py-10">
-	<div class="container mx-auto md:flex items-center">
+	<div class="container mx-auto md:flex items-center mb-12">
 		<article class="w-full lg:w-1/2 relative">
 			<div class="absolute top-16 left-0 z-0">
 				<Triangle class="hidden lg:block w-full" />
 				<TriangleMobile class="lg:hidden w-full" />
 			</div>
 			<div class="relative z-10 max-w-[551px]">
-				<h1
-					class="text-3xl lg:text-[40px] font-display-medium mb-12 font-bold leading-tight"
-					style="letter-spacing: 2px;"
-				>
+				<h1 class="h1-elem mb-8" style="letter-spacing: 2px;">
 					Having unwanted pests in your home is never a pleasant experience and can cause a lot of
 					heartache.
 				</h1>
@@ -76,7 +74,7 @@
 		</article>
 		<section class="w-full lg:w-1/2 mt-10 lg:mt-0">
 			<div class="relative">
-				<img class="w-full object-cover max-w-[600px] relative z-[1]" src={heroImg} alt="Hero" />
+				<img class="w-full object-cover max-w-[600px] relative z-[1]" src="../images/main-hero.png" alt="Hero" />
 				<div
 					class="text-white absolute z-10 top-8 lg:top-4 left-12 md:left-20 lg:left-32 bg-white/40 p-2 rounded-xl backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-0"
 				>
@@ -104,5 +102,36 @@
 			</div>
 		</section>
 	</div>
-    <CallToAction /> <Button />
 </section>
+<!-- HERO end -->
+<CallToAction />
+<Blog />
+
+<!-- Collection SECTION -->
+<section class="bg-light-purple/80 py-8 lg:py-10">
+	<div class="container mx-auto w-full">
+		<h2 class="h2-elem mb-8">Local experts in pest control solutions & best services</h2>
+		<div class="lg:flex justify-between items-start " />
+	</div>
+</section>
+<!-- Collection SECTION end -->
+
+<!-- TEXT SECTION -->
+<section class="bg-white py-8 lg:py-10">
+	<div class="container mx-auto w-full">
+		<h2 class="h2-elem mb-8">About us</h2>
+		<div class="lg:flex justify-between items-start " />
+	</div>
+</section>
+<!-- TEXT SECTION end -->
+
+
+
+<!-- TYPES SECTION -->
+<section class="bg-light-purple/80 py-8 lg:py-10">
+	<div class="container mx-auto w-full">
+		<h2 class="h2-elem mb-8">Pest Types</h2>
+		<div class="lg:flex justify-between items-start " />
+	</div>
+</section>
+<!-- TYPES SECTION end -->

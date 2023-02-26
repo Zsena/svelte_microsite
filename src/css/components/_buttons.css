@@ -6,6 +6,10 @@
     @apply transition-all ease-out duration-300 border-2 border-base-purple font-secondary-title bg-light-purple text-base-purple rounded-full py-3 px-5 hover:text-white hover:bg-base-purple;
 }
 
+.small-outline-btn {
+    @apply transition-all ease-out duration-300 border-2 border-base-purple font-display-regular text-sm bg-white text-dark-blue rounded-full py-1 px-3 hover:text-white hover:bg-base-purple;
+}
+
 a {
     @apply text-green border-b border-solid border-transparent hover:text-base-purple hover:border-base-purple;
 }

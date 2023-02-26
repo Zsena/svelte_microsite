@@ -1,8 +1,8 @@
 <script>
-	import Logo from '$lib/assets/images/svg/pest_logo.svg';
-	import Facebook from '$lib/assets/images/svg/facebook.svg';
-	import Youtube from '$lib/assets/images/svg/youtube.svg';
-	import LinkedIn from '$lib/assets/images/svg/linkedin.svg';
+	import Logo from '$lib/assets/svg/pest_logo.svg';
+	import Facebook from '$lib/assets/svg/facebook.svg';
+	import Youtube from '$lib/assets/svg/youtube.svg';
+	import LinkedIn from '$lib/assets/svg/linkedin.svg';
 </script>
 <footer class="py-8 sm:py-12 text-sm">
 	<div class="container mx-auto">
@@ -13,7 +13,7 @@
 						<Logo />
 					</a>
 				</div>
-				<article>
+				<article class="text-dark">
 					Along with serving residential consumers, we also provide our services to businesses that want the assurance of working with one of London's most reputable pest control firms. 
 				</article>
 				<div>
@@ -69,7 +69,7 @@
 			</div>
 			<div class="px-4 sm:w-1/2 lg:w-1/4 xl:w-[362px] mt-8 md:mt-0 xl:px-0">
 				<h5 class="footer-title">Stay with us</h5>
-				<article>
+				<article class="text-dark">
 					Businesses that handle food or drink items, for example, are particularly prone to insect infestations, which can negatively affect their operations. Because of this, we are constantly on call to offer business pest control London solutions that are incredibly discrete at any hour of the day or night.
 				</article>
 				<div class="flex items-center my-5">
@@ -83,7 +83,8 @@
 			<div class="px-4 w-full mt-4 md:mt-0 flex flex-col justify-center items-center text-center">
 				<h6 class="font-bold mb-2">Img Resources: <em>All are MIT License: freepik or pexels, authors <a class="border-green" href="/">here</a>.</em></h6>
 				<p>There is no data management or cookie use on our website</p>
-				<p>Copyright © 2022 <a href="https://geekrabbits.hu/" target="_blank" rel="noreferrer">Geekrabbits</a> - <a href="https://www.linkedin.com/in/zsena/" target="_blank" rel="noreferrer">Zsena</a></p>
+				<p>Copyright © 2022 - PESTsolution </p>
+				<p class="text-xs"><a href="https://geekrabbits.hu/" target="_blank" rel="noreferrer">Geekrabbits</a> - <a href="https://www.linkedin.com/in/zsena/" target="_blank" rel="noreferrer">Zsena</a></p>
 			</div>
 		</div>
 	</div>

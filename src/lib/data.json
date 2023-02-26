@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Eco Friendly",
+        "seoUrl": "eco-friendly",
+        "lead": "We provide eco friendly solutions.",
+        "lead2": "We provide eco friendly solutions. Green Pest Control Techniques",
+        "imageUrl": "../images/blog/blog.png",
+        "details_bg_image": "../images/blog/blog_bg.png",
+        "tags": "Eco friendly, solutions",
+        "body1": "We have the training necessary to handle a wide variety of pests, such as moth control and fumigation, mice or mouse control, ants in the home, wasp pest control, bed bug treatment, cockroach extermination, fox control, pigeon issues, squirrels in the loft or attic, fly pests, rat catching, flea control, and many more. Squirrels, for example, are an issue throughout the winter, while other pests appear during the warmer months. \n",
+        "body2": "Making the right choices can have lasting impacts. For pest control, traditional methods that rely on harsh chemicals and pesticides are potentially dangerous. These chemicals can cause cancer, birth defects, and neurological damage. That’s why eco-friendly alternatives are an important option for homeowners. Get to know the safe pest control methods that won’t harm you, your family or the environment.\n",
+        "body3": "For people's health, using strong chemicals can be dangerous, especially for families. Solvents, various industrial chemicals, and insecticides and pesticides have all been linked to a higher risk of cancer. Infertility troubles, birth deformities, neurological harm, and lung problems can also be brought on by lead, mercury, and certain pesticides. Chemical vapors may also cause allergic responses or other health issues, such as liver and kidney damage. To minimize any potential hazards, always use caution while working with chemicals and follow the directions completely. \n",
+        "subtitle": "Pesticides: Chemicals in Issues",
+        "endBody": "You might attempt a more natural and environmentally friendly method of insect control as an alternative."
+    },
+    {
+        "id": 2,
+        "title": "Wood Treatments",
+        "seoUrl": "wood-treatments",
+        "lead": "We pay attention to furniture.",
+        "lead2": "We pay attention to furniture. Your wood components are under attack? Our solutions defend your furniture, buildings, and beams against insect infestations.",
+        "imageUrl": "../images/blog/blog2.png",
+        "details_bg_image": "../images/blog/blog_bg.png",
+        "tags": "Wood Treatments, Home",
+        "body1": "We have the training necessary to handle a wide variety of pests, such as moth control and fumigation, mice or mouse control, ants in the home, wasp pest control, bed bug treatment, cockroach extermination, fox control, pigeon issues, squirrels in the loft or attic, fly pests, rat catching, flea control, and many more. Squirrels, for example, are an issue throughout the winter, while other pests appear during the warmer months. \n",
+        "body2": "With our solutions via injection or gassing, we stop wood boring insects from harming your beams, frames, furniture, or other wood.",
+        "body3": "Insects that eat through wood and reproduce damage it and ruin its beauty. You should act swiftly to remove them if you notice them in your ceiling, furniture, flooring, or wooden stairs. Sadly, overcoming is not simple; bug repellent, for instance, is useless."
+    },
+    {
+        "id": 3,
+        "title": "Fumigation",
+        "seoUrl": "fumigation",
+        "lead": "effectively prevent \n insect-related risks.",
+        "lead2": "effectively prevent \n insect-related risks.",
+        "imageUrl": "../images/blog/blog3.png",
+        "details_bg_image": "../images/blog/blog_bg.png",
+        "tags": "fumigation, mice or mouse control",
+        "body1": "We have the training necessary to handle a wide variety of pests, such as moth control and fumigation, mice or mouse control, ants in the home, wasp pest control, bed bug treatment, cockroach extermination, fox control, pigeon issues, squirrels in the loft or attic, fly pests, rat catching, flea control, and many more. Squirrels, for example, are an issue throughout the winter, while other pests appear during the warmer months. \n"
+    },
+    {
+        "id": 4,
+        "title": "Safety First",
+        "seoUrl": "safety-first",
+        "lead": "Health & safety is \n always our priority.",
+        "lead2": "Health & safety is \n always our priority.",
+        "imageUrl": "../images/blog/blog4.png",
+        "details_bg_image": "../images/blog/blog_bg.png",
+        "tags": "Safety first, Trainings",
+        "body1": "We have the training necessary to handle a wide variety of pests, such as moth control and fumigation, mice or mouse control, ants in the home, wasp pest control, bed bug treatment, cockroach extermination, fox control, pigeon issues, squirrels in the loft or attic, fly pests, rat catching, flea control, and many more. Squirrels, for example, are an issue throughout the winter, while other pests appear during the warmer months. \n"
+    }
+]

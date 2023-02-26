@@ -1,3 +1,7 @@
-<h1>Blog this site</h1>
-<p>TODO...</p>
-<a href="/">Home</a>
+<script>
+	import Blog from "$lib/assets/components/blog/Blog.svelte";
+	export let data;	
+	console.log(data);
+</script>
+
+<Blog />

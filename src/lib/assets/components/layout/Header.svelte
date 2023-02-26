@@ -8,7 +8,7 @@
 	function toggleNavbar() {
 		showMenu = !showMenu;
 	}
-	import Logo from "$lib/assets/images/svg/pest_logo.svg";
+	import Logo from "$lib/assets/svg/pest_logo.svg";
 	
 	import { error } from '@sveltejs/kit';
  
@@ -37,19 +37,19 @@
 			</div>
 			<ul class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 {showMenu? 'flex': 'hidden'}">
 				<li aria-current={$page.url.pathname==='/' ? 'page' : undefined}>
-					<a class="text-gray-100 hover:text-blue-400" href="/">Home</a>
+					<a class="" href="/">Home</a>
 				</li>
 				<li aria-current={$page.url.pathname==='/services' ? 'page' : undefined}>
-					<a class="text-gray-100 hover:text-blue-400" href="/services">Services</a>
+					<a class="" href="/services">Services</a>
 				</li>
 				<li aria-current={$page.url.pathname==='/areas-we-cover' ? 'page' : undefined}>
-					<a class="text-gray-100 hover:text-blue-400" href="/areas-we-cover">Areas we cover</a>
+					<a class="" href="/areas-we-cover">Areas we cover</a>
 				</li>
 				<li aria-current={$page.url.pathname==='/about' ? 'page' : undefined}>
-					<a class="text-gray-100 hover:text-blue-400" href="/about">About Us</a>
+					<a class="" href="/about">About Us</a>
 				</li>
 				<li aria-current={$page.url.pathname==='/blogs' ? 'page' : undefined}>
-					<a class="text-gray-100 hover:text-blue-400" href="/blog">Blogs</a>
+					<a class="" href="/blog">Blogs</a>
 				</li>
 			</ul>
 		</div>
