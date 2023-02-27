@@ -37,10 +37,10 @@
 						<a href="/">Home</a>
 					</li>
 					<li class="mb-2">
-						<a href="/">Service</a>
+						<a href="/services">Service</a>
 					</li>
 					<li class="mb-2">
-						<a href="/">Areas we cover</a>
+						<a href="/areas-we-cover">Areas we cover</a>
 					</li>
 					<li class="mb-2">
 						<a href="/about">About us</a>
@@ -54,16 +54,16 @@
 				<h5 class="footer-title">Important</h5>
 				<ul class="list-none footer-links">
 					<li class="mb-2">
-						<a href="/">Eco friendly</a>
+						<a href="/blog/1">Eco friendly</a>
 					</li>
 					<li class="mb-2">
-						<a href="/">Wood treatments</a>
+						<a href="/blog/2">Wood treatments</a>
 					</li>
 					<li class="mb-2">
-						<a href="/">Fumigation</a>
+						<a href="/blog/3">Fumigation</a>
 					</li>
 					<li class="mb-2">
-						<a href="/">Safety first</a>
+						<a href="/blog/4">Safety first</a>
 					</li>
 				</ul>
 			</div>
