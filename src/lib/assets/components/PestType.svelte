@@ -13,7 +13,7 @@
     <div class="container mx-auto md:flex justify-center lg:justify-between items-start flex-wrap w-full">
         {#each items as item}
 			<div
-				class="bg-white border-f2-white/50 outline-f2-white/50 w-full md:max-w-[270px] rounded-[13.16px] m-3 p-4 shadow-sm">
+				class="bg-white hover:drop-shadow-xl hover:shadow-xl transition-all border-f2-white/50 outline-f2-white/50 w-full md:max-w-[270px] rounded-[13.16px] m-3 p-4 shadow-sm">
 				<a href={`/pest-types/${item.id}`}>
 					<img class="rounded-[13.16px] md:max-w-[250px] max-h-[220px] w-full object-cover mb-3"
 						src={item.imageUrl}
