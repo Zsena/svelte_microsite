@@ -25,10 +25,12 @@
                    <div class="w-full">
                         <img class="rounded-3xl max-w-[400px] max-h-[160px] w-full object-cover mb-3 shadow-lg drop-shadow-lg" src={item.imageUrl} alt={item.title}>
                         <div class="bg-base-purple text-white py-2 px-4 my-3 flex uppercase font-title w-max">{item.tags}</div>
-                        {#if item.body2}
+                        {#if item.lead2}
                         <p class="py-2 font-secondary-title h6-elem">{item.lead2}</p>
                         {/if}
+                        {#if item.body1}
                         <p class="py-2">{item.body1}</p>
+                        {/if}
                         {#if item.body2}
                         <p class="py-2">{item.body2}</p>
                         {/if}

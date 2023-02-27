@@ -1,4 +1,5 @@
 <script>
+	import PestType from '$lib/assets/components/PestType.svelte';
 	import Triangle from '$lib/assets/svg/triangle.svg';
 	import TriangleMobile from '$lib/assets/svg/triangle_mobile.svg';
 	import Dot from '$lib/assets/svg/dot.svg';
@@ -7,7 +8,7 @@
 	import { onDestroy } from 'svelte';
 	import CallToAction from '../lib/assets/components/action/CallToAction.svelte';
 	import Blog from '../lib/assets/components/blog/Blog.svelte';
-	import Button from '../lib/assets/components/buttons/Button.svelte';
+	import Testimonials from '$lib/assets/components/action/Testimonials.svelte';
 
 	let counter1 = 0;
 	let counter2 = 0;
@@ -50,7 +51,7 @@
 					Having unwanted pests in your home is never a pleasant experience and can cause a lot of
 					heartache.
 				</h1>
-				<a href="/contact" class="regular-btn py-4 text-xl"> Explore Now </a>
+				<a href="/contact" class="regular-btn py-4 text-xl">Explore Now </a>
 			</div>
 			<section class="base-counter mt-16">
 				<div class="counter-wrapper">
@@ -106,6 +107,10 @@
 <!-- HERO end -->
 <CallToAction />
 <Blog />
+<!-- TYPES SECTION -->
+<PestType />
+<!-- TYPES SECTION end -->
+
 
 <!-- Collection SECTION -->
 <section class="bg-light-purple/80 py-8 lg:py-10">
@@ -115,7 +120,7 @@
 	</div>
 </section>
 <!-- Collection SECTION end -->
-
+<Testimonials />
 <!-- TEXT SECTION -->
 <section class="bg-white py-8 lg:py-10">
 	<div class="container mx-auto w-full">
@@ -127,11 +132,3 @@
 
 
 
-<!-- TYPES SECTION -->
-<section class="bg-light-purple/80 py-8 lg:py-10">
-	<div class="container mx-auto w-full">
-		<h2 class="h2-elem mb-8">Pest Types</h2>
-		<div class="lg:flex justify-between items-start " />
-	</div>
-</section>
-<!-- TYPES SECTION end -->
